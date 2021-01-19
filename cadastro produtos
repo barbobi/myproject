@@ -1,0 +1,212 @@
+curl --location --request POST 'https://apidev.fastshop.com.br/shop-mpc/fastshop/catalog/1/items' \
+--header 'mpc-api-version: v1' \
+--header 'token: eyJraWQiOiJ6aDRlcEJPcnJLa0JPQmR0WU5sa1B1WldqcmRObEtZUGQ3OG8zQ0I1NCtJPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJlM2NlOGNhNy01MTVmLTRlNzAtYjBiMy0xMmE5ZDQ5ZmYxMzYiLCJjb2duaXRvOmdyb3VwcyI6WyJmYXN0c2hvcC5hZG1pbi5jYWRhc3Ryb3NlbGxlciJdLCJldmVudF9pZCI6ImMxYTdhMTllLTRhMTEtNDRlMS05MjcyLTdhZTU3YjdlZTViZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2MTEwODQzOTIsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy1lYXN0LTEuYW1hem9uYXdzLmNvbVwvdXMtZWFzdC0xX3ZvZUd2RHdQdSIsImV4cCI6MTYxMTA4Nzk5MiwiaWF0IjoxNjExMDg0MzkyLCJqdGkiOiIzOTlkMDFhYS0wZmNjLTQ5OTMtOGE2ZC05OGRkNzA5MTdlYTAiLCJjbGllbnRfaWQiOiI2cG1waHVnOTNsaWpnanViajIyb3Fsa2IzIiwidXNlcm5hbWUiOiJmYXN0c2hvcC5hZG1pbi5jYWRhc3Ryb3NlbGxlckBtYWlsaW5hdG9yLmNvbSJ9.cI7Iy-6RQtJR-ScVQZUWGmqAR-GszvA1q8CyxWDzjf-EjWOgZs_pO5KolzQt8lfaot2yFeTBjCRwC7assrRZBToL_0RDA068agtHSOzs86Wkk02tkuO1tNCr5OU2qzmy7opwo1_0Z2tpXB3PHVauWYefoWDGV4h9YCHCieDXy6LlNLddND6dJQ7uakQsKyq1xGBU_rSTzBUgoU8giS1A7VkyNLlNqbM10L7Ch-n93JGtdjtQbrKUaPlaFYspJ8uktW9A4CQ47jSdACq2l7K8o2MQtuZoIGA42l8v2pMydC4NzIVSzjuAGckLGOq3ex5OJ5BZDQESrbXAp4ZBPmHchw' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: JSESSIONID=node08trti2tefrjq11wzyq4rzo6r972.node0' \
+--data-raw '{
+    "categoryId": "5faaf39793de8c106b94848d",
+    "productId": "xxxyz_123456",
+    "sellerId": "philips",
+    "altIds": {
+        "GTIN": "121212121212121121212",
+        "EAN": "121212121212121121212",
+        "NCM": "98769898"
+    },
+    "type": "PRODUCT",
+    "name": "Celular Samsung",
+    "shortDescription": "Celular Premium",
+    "longDescription": "Celular Samsung Premium",
+    "assets": {
+        "images": [
+            {
+                "src": "https://www.fastshop.com.br/wcsstore/FastShopCAS/Marketplace/Feitos%202/6869194029/6869194029_PRD_1500_1.jpg"
+            }
+        ]
+    },
+    "attributes": [
+        {
+            "name": "Cor",
+            "value": "Preto"
+        },
+        {
+            "name": "Toe",
+            "value": "Open"
+        },
+        {
+            "name": "brand",
+            "value": "GAP"
+        },
+        {
+            "name": "Pes_Bruto",
+            "value": "1"
+        },
+        {
+            "name": "Cod_Marca",
+            "value": "1"
+        },
+        {
+            "name": "Cod_Modelo",
+            "value": "1"
+        },
+        {
+            "name": "Identificador Universal",
+            "value": "1"
+        },
+        {
+            "name": "Alt_Bruto",
+            "value": "1"
+        },
+        {
+            "name": "Larg_Bruto",
+            "value": "1"
+        },
+        {
+            "name": "Prof_Bruto",
+            "value": "1"
+        },
+        {
+            "name": "Pes_Liq",
+            "value": "1"
+        },
+        {
+            "name": "Alt_Liq",
+            "value": "1"
+        },
+        {
+            "name": "Larg_Liq",
+            "value": "1"
+        },
+        {
+            "name": "Prof_Liq",
+            "value": "1"
+        },
+        {
+            "name": "Uni_Med_Compra",
+            "value": "KIT"
+        },
+        {
+            "name": "Preço Por",
+            "value": "1"
+        },
+        {
+            "name": "Data Inicio Promoção",
+            "value": "1"
+        },
+        {
+            "name": "Nome_Modelo",
+            "value": "Nome do modelo"
+        }
+    ],
+    "tags": [
+        "MODA",
+        "ROUPAS"
+    ],
+    "seo": {
+        "metaTag": "",
+        "metaDescription": "",
+        "metaTitle": "",
+        "slug": ""
+    },
+    "category": "",
+    "brand": "Teste Marca",
+    "webStore": [
+        "MKT_ELETROLUX"
+    ],
+    "publishedChannels": [
+        "web"
+    ],
+    "variants": [
+        {
+            "sellerSku": "skuSellerID1010",
+            "altIds": {
+                "GTIN": "121212121212121121212",
+                "EAN": "121212121212121121212",
+                "NCM": "98769898"
+            },
+            "name": "Celular Samsung SKU" ,
+            "shortDescription": "Hundefutter",
+            "longDescription": "Hundefutter",
+            "assets": {
+                "images": [
+                    {
+                        "src": "https://www.fastshop.com.br/wcsstore/FastShopCAS/imagens/_AD_Audio/JBLFLIP5PTO/JBLFLIP5PTO_PRD_1500_2.jpg"
+                    }
+                ]
+            },
+            "attributes": [
+                {
+                    "name": "Color",
+                    "value": "Preto"
+                },
+                {
+                    "name": "Size",
+                    "value": "PP"
+                },
+                {
+                    "name": "Width",
+                    "value": "Short"
+                },
+                {
+                    "name": "Pes_Bruto",
+                    "value": "1"
+                },
+                {
+                    "name": "Cod_Marca",
+                    "value": "1"
+                },
+                {
+                    "name": "Cod_Modelo",
+                    "value": "1"
+                },
+                {
+                    "name": "Identificador Universal",
+                    "value": "1"
+                },
+                {
+                    "name": "Alt_Bruto",
+                    "value": "1"
+                },
+                {
+                    "name": "Larg_Bruto",
+                    "value": "1"
+                },
+                {
+                    "name": "Prof_Bruto",
+                    "value": "1"
+                },
+                {
+                    "name": "Pes_Liq",
+                    "value": "1"
+                },
+                {
+                    "name": "Alt_Liq",
+                    "value": "1"
+                },
+                {
+                    "name": "Larg_Liq",
+                    "value": "1"
+                },
+                {
+                    "name": "Prof_Liq",
+                    "value": "1"
+                },
+                {
+                    "name": "Uni_Med_Compra",
+                    "value": "KIT"
+                },
+                {
+                    "name": "Preço Por",
+                    "value": "1"
+                },
+                {
+                    "name": "Data Inicio Promoção",
+                    "value": "1"
+                }
+            ],
+            "tags": [
+                "MODA",
+                "ROUPAS"
+            ]
+        }
+    ]
+}'
